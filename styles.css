@@ -1,0 +1,96 @@
+html{
+    scroll-behavior: smooth;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: serif;
+    color: black;
+    box-sizing: border-box;
+}
+
+.Tribute{
+    background: rgb(139, 34, 238);
+    background: -webkit-linear-gradient(15deg,rgb(139, 34, 238) 0%,rgb(230, 228, 106) 100%);
+    background: linear-gradient(15deg,rgb(139, 34, 238) 0%,rgb(230, 228, 106) 100%);
+
+}
+
+body{
+    font-size: 20px;
+}
+
+figure{
+    float: right;
+}
+
+.header{
+    text-shadow: 5px 5px 15px rgb(253, 117, 44);
+    display: flex;
+    justify-content: center;
+}
+.sub{
+    display: flex;
+    justify-content: center;
+    font-size: larger;
+}
+img:hover{
+    box-shadow: 5px 5px 5px;
+    color: grey;
+}
+h1:hover{
+    color: rgb(226, 36, 131);
+}
+img{
+    border-radius: 100%;
+}
+.SUB{
+    display: flex;
+    justify-content: center;
+}
+.body{
+    margin-top: 20px;
+    margin-left: 25px;
+}
+.activities{
+    margin-top: 20px;
+    margin-left: 25px;
+}
+.ulist{
+    margin-top: 20px;
+    margin-left: 25px;
+}
+.about{
+    margin-bottom: 10px;
+}
+.bio{
+    margin-top: 50px;
+}
+.quote{
+    margin-top: 50px;
+    margin-left: 25px;
+}
+.resourses{
+    margin-bottom: 20px;
+    margin-left: 25px;
+}
+.links{
+    margin-bottom: 20px;
+    margin-left: 25px;
+}
+
+button{
+    color: black;
+    margin-left: 30px;
+    border-radius: 8vh;
+    background: grey;
+    border: none;
+    padding: 10px;
+    font-weight: 700;
+}
+.author{
+    text-align: center;
+    font-weight: 500;
+    color: white;
+}
